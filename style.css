@@ -1,0 +1,84 @@
+.timerBtn{
+    width: 80px;
+    height: 40px;
+    border: 3px solid ;
+    border-radius: 14px;
+    background-color:black;
+    color:white;
+    cursor: pointer;
+    transition: .3s;
+    margin-left: 7px;
+    font-family: consolas,monospace;
+}
+
+.timerBtn:hover{
+    transform: scale(1.2);
+}
+
+#timeDisplay{
+    font-size: 75px;
+    color: mediumseagreen;
+    font-family: consolas,monospace;
+}
+
+span{
+    color: white;
+}
+
+#timeContainer{
+    width:525px;
+    text-align: center;
+    background-color: #222222;
+    border: 3px solid;
+    border-radius: 25px;
+    margin-left: 31vw;
+    margin-top: 90px;
+}
+
+
+/* Responsive design */
+
+
+@media (width<=1260px) {
+    #timeContainer{
+        margin-left: 28vw;
+    }
+}
+
+@media (width<=1110px) {
+    #timeContainer{
+        margin-left: 25vw;
+    }
+}
+
+@media (width<=980px) {
+    #timeContainer{
+        margin-left: 20vw;
+    }
+}
+
+@media (width<=825px) {
+    #timeContainer{
+        margin-left: 15vw;
+    }
+}
+
+@media (width<=730px) {
+    #timeContainer{
+        margin-left: 10vw;
+    }
+}
+
+@media (width<=630px) {
+    #timeContainer{
+        margin-left: 6vw;
+    }
+}
+
+
+@media (width<=590px) {
+    #timeContainer{
+        margin-left: 4vw;
+        width:440px
+    }
+}
